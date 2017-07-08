@@ -16,14 +16,7 @@ Car e Bicycle. Dê a cada classe alguns atributos e comportamentos adequados ún
 que ela não tem em comum com outras classes.
 2. Escreva uma interface de CarbonFootprint com um método getCarbonFootprint.
 3. Faça com que cada uma das suas classes implemente essa interface para que o método
-getCarbonFootprint calcule uma pegada de carbono adequada para essa classe (confira
-alguns sites que explicam como calcular pegadas de carbono).
- Bike : http://bit.ly/2r9vQjY
-yearlyMiles * caloriesPerMile;
- Building : http://bit.ly/2qHfkpS
-averageMonthlyKwh * months
- Car : http://bit.ly/2q9JwY1
-averageYearlyMiles * averageMPG * kgCO2PerMile
+getCarbonFootprint calcule uma pegada de carbono adequada para essa classe.
 4. Escreva um aplicativo que cria objetos de cada uma das três classes, insere referências a
 esses objetos em ArrayList<CarbonFootprint>, então itera pelo ArrayList polimorficamente
 invocando o método getCarbonFootprint de cada objeto.
